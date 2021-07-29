@@ -28,7 +28,7 @@ public class BaseTests {
     public void setUp(){
 
 //        System.setProperty("webdriver.chrome.webdriver", "chromedriver.exe");
-//        driver = new ChromeDriver();
+//        driver = new ChromeDriver(); A WebDriver manager elintézi ezt a gdolgot
 
 
         //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
