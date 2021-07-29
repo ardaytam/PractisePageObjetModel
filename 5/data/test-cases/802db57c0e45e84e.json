@@ -1,0 +1,107 @@
+{
+  "uid" : "802db57c0e45e84e",
+  "name" : "testHoverUser1()",
+  "fullName" : "hover.HoverTest.testHoverUser1",
+  "historyId" : "705102aa0ad32ed3b7b374029160a35b",
+  "time" : {
+    "start" : 1627593664318,
+    "stop" : 1627593664813,
+    "duration" : 495
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1627593663154,
+      "stop" : 1627593664316,
+      "duration" : 1162
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1627593664814,
+      "stop" : 1627593664884,
+      "duration" : 70
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az82-711"
+  }, {
+    "name" : "thread",
+    "value" : "2818@fv-az82-711.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "hover.HoverTest"
+  }, {
+    "name" : "testClass",
+    "value" : "hover.HoverTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHoverUser1"
+  }, {
+    "name" : "suite",
+    "value" : "hover.HoverTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "e18b6bd8474bf66",
+        "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/3//#testresult/e18b6bd8474bf66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1627592958470,
+          "stop" : 1627592958902,
+          "duration" : 432
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "802db57c0e45e84e.json",
+  "parameterValues" : [ ]
+}
