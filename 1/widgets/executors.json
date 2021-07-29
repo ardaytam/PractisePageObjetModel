@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://ardaytam.github.io/PractisePageObjetModel",
+  "buildOrder" : 1,
+  "buildName" : "GitHub Actions Run #1080045151",
+  "buildUrl" : "https://github.com/ardaytam/PractisePageObjetModel/actions/runs/1080045151",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/1/"
+} ]
