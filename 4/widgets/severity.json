@@ -1,0 +1,21 @@
+[ {
+  "uid" : "774e012aae502712",
+  "name" : "testSelectOption()",
+  "time" : {
+    "start" : 1627584931323,
+    "stop" : 1627584931806,
+    "duration" : 483
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ec72ae42fb462ffa",
+  "name" : "HoverTest",
+  "time" : {
+    "start" : 1627584841239,
+    "stop" : 1627584841239,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
