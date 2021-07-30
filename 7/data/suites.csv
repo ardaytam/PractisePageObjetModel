@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Fri Jul 30 06:51:30 GMT 2021","Fri Jul 30 06:51:31 GMT 2021","508","","dropdown.DropdownTests","","dropdown.DropdownTests","testSelectOption","testSelectOption()",""
+"passed","Fri Jul 30 06:51:31 GMT 2021","Fri Jul 30 06:51:32 GMT 2021","581","","hover.HoverTest","","hover.HoverTest","testHoverUser1","testHoverUser1()",""
+"passed","Fri Jul 30 06:51:31 GMT 2021","Fri Jul 30 06:51:32 GMT 2021","691","","forgotpassword.ForgotPasswordTest","","forgotpassword.ForgotPasswordTest","testPasswordRecovering","testPasswordRecovering()",""
+"passed","Fri Jul 30 06:51:30 GMT 2021","Fri Jul 30 06:51:30 GMT 2021","398","","keys.KeysTests","","keys.KeysTests","testAtSign","testAtSign()",""
+"broken","Fri Jul 30 06:51:31 GMT 2021","Fri Jul 30 06:51:31 GMT 2021","66","","keys.KeysTests","","keys.KeysTests","testBackspace","testBackspace()",""
+"passed","Fri Jul 30 06:51:32 GMT 2021","Fri Jul 30 06:51:33 GMT 2021","618","","login.LoginTests","","login.LoginTests","testSuccesfullLogin","testSuccesfullLogin()",""
