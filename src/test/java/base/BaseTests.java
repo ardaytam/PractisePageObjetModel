@@ -14,6 +14,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import pages.HomePage;
 
 import java.util.List;
+
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 //JUnitException: @BeforeAll method 'public void base.BaseTests.setUp()' must be static
 // unless the test class is annotated with @TestInstance(Lifecycle.PER_CLASS).
@@ -25,7 +26,7 @@ public class BaseTests {
 
 
     @BeforeAll
-    public void setUp(){
+    public void setUp() {
 
 //        System.setProperty("webdriver.chrome.webdriver", "chromedriver.exe");
 //        driver = new ChromeDriver(); A WebDriver manager elintézi ezt a gdolgot
@@ -34,35 +35,24 @@ public class BaseTests {
         //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
-       /* options.addArguments("start-maximized"); // teljes képernyőőben való használat
-        options.addArguments("--no-sandbox");
-        options.addArguments("--disable-dev-shm-usage");*/
+//        options.addArguments("start-maximized"); // teljes képernyőőben való használat
+       options.addArguments("--no-sandbox");
+//        options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
         driver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
         driver.get("https://the-internet.herokuapp.com/");
 
 
-
-
-
         homePage = new HomePage(driver);
 
     }
+
     @AfterAll
-        public void tearDown() {
+    public void tearDown() {
         driver.quit();
     }
 
 }
-
-
-
-
-
-
-
-
-
 
 
 //        WebElement shiftingContentLink = driver.findElement(By.linkText("Shifting Content"));
