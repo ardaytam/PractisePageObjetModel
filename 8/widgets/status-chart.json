@@ -1,0 +1,61 @@
+[ {
+  "uid" : "ace9022b220ef3e6",
+  "name" : "testSelectOption()",
+  "time" : {
+    "start" : 1627628173060,
+    "stop" : 1627628173408,
+    "duration" : 348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "269cfd29c4bca735",
+  "name" : "testSuccesfullLogin()",
+  "time" : {
+    "start" : 1627628178036,
+    "stop" : 1627628178765,
+    "duration" : 729
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "222a0264b76cea8a",
+  "name" : "testHoverUser1()",
+  "time" : {
+    "start" : 1627628174599,
+    "stop" : 1627628175137,
+    "duration" : 538
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64051db0c11e0143",
+  "name" : "testPasswordRecovering()",
+  "time" : {
+    "start" : 1627628176323,
+    "stop" : 1627628176889,
+    "duration" : 566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a35f46f130ffe253",
+  "name" : "testBackspace()",
+  "time" : {
+    "start" : 1627628171841,
+    "stop" : 1627628171879,
+    "duration" : 38
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "52fb241b9627cb20",
+  "name" : "testAtSign()",
+  "time" : {
+    "start" : 1627628171476,
+    "stop" : 1627628171762,
+    "duration" : 286
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
