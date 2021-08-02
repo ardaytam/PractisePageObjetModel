@@ -1,0 +1,173 @@
+{
+  "uid" : "ae131f6e2e4c2f40",
+  "name" : "testBackspace()",
+  "fullName" : "keys.KeysTests.testBackspace",
+  "historyId" : "d89725356da974cd31ecaced0aed5d94",
+  "time" : {
+    "start" : 1627928377596,
+    "stop" : 1627928377888,
+    "duration" : 292
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "goHomePage",
+    "time" : {
+      "start" : 1627928377618,
+      "stop" : 1627928377675,
+      "duration" : 57
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1627928370254,
+      "stop" : 1627928377069,
+      "duration" : 6815
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1627928377891,
+      "stop" : 1627928378007,
+      "duration" : 116
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "fv-az39-997"
+  }, {
+    "name" : "thread",
+    "value" : "2926@fv-az39-997.ForkJoinPool-1-worker-1(12)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "keys.KeysTests"
+  }, {
+    "name" : "testClass",
+    "value" : "keys.KeysTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testBackspace"
+  }, {
+    "name" : "suite",
+    "value" : "keys.KeysTests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 6,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "a469c0cdc4c83eea",
+        "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/9//#testresult/a469c0cdc4c83eea",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Key Presses\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az39-997', ip: '10.1.0.230', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.popxZj}, goog:chromeOptions: {debuggerAddress: localhost:34695}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 10bd624ec92ab33403964a34c77b2de9\n*** Element info: {Using=link text, value=Key Presses}",
+        "time" : {
+          "start" : 1627628392177,
+          "stop" : 1627628392211,
+          "duration" : 34
+        }
+      }, {
+        "uid" : "a35f46f130ffe253",
+        "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/8//#testresult/a35f46f130ffe253",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Key Presses\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az83-150', ip: '10.1.0.193', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.0eXVvQ}, goog:chromeOptions: {debuggerAddress: localhost:42427}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b1244ae21acd74ec82aa83dc1fe457a8\n*** Element info: {Using=link text, value=Key Presses}",
+        "time" : {
+          "start" : 1627628171841,
+          "stop" : 1627628171879,
+          "duration" : 38
+        }
+      }, {
+        "uid" : "9079bfa54487c139",
+        "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/7//#testresult/9079bfa54487c139",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Key Presses\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az42-582', ip: '10.1.0.71', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.JLsaCI}, goog:chromeOptions: {debuggerAddress: localhost:43631}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d4d462b6758388a3579669196d353cbf\n*** Element info: {Using=link text, value=Key Presses}",
+        "time" : {
+          "start" : 1627627891158,
+          "stop" : 1627627891224,
+          "duration" : 66
+        }
+      }, {
+        "uid" : "3c71b8a7b737c939",
+        "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/6//#testresult/3c71b8a7b737c939",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Key Presses\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-207', ip: '10.1.1.9', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.H3mgIb}, goog:chromeOptions: {debuggerAddress: localhost:40263}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: dd3543e26ccca3bf727f46816a4e063f\n*** Element info: {Using=link text, value=Key Presses}",
+        "time" : {
+          "start" : 1627593788817,
+          "stop" : 1627593788847,
+          "duration" : 30
+        }
+      }, {
+        "uid" : "94660e2643b6b23e",
+        "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/5//#testresult/94660e2643b6b23e",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Key Presses\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az82-711', ip: '10.1.0.80', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.fIuiiu}, goog:chromeOptions: {debuggerAddress: localhost:38049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 475743293c6db042995dfb8dcf3d581c\n*** Element info: {Using=link text, value=Key Presses}",
+        "time" : {
+          "start" : 1627593661468,
+          "stop" : 1627593661501,
+          "duration" : 33
+        }
+      }, {
+        "uid" : "a1fa2ee9f72d948f",
+        "reportUrl" : "https://ardaytam.github.io/PractisePageObjetModel/3//#testresult/a1fa2ee9f72d948f",
+        "status" : "broken",
+        "statusDetails" : "no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"Key Presses\"}\n  (Session info: headless chrome=92.0.4515.107)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'fv-az72-207', ip: '10.1.0.64', os.name: 'Linux', os.arch: 'amd64', os.version: '5.8.0-1039-azure', java.version: '1.8.0_302'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 92.0.4515.107, chrome: {chromedriverVersion: 92.0.4515.107 (87a818b10553..., userDataDir: /tmp/.com.google.Chrome.C5MBe9}, goog:chromeOptions: {debuggerAddress: localhost:42541}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d5db5b4acdbb82e9f78585e976481d7e\n*** Element info: {Using=link text, value=Key Presses}",
+        "time" : {
+          "start" : 1627592957199,
+          "stop" : 1627592957240,
+          "duration" : 41
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ae131f6e2e4c2f40.json",
+  "parameterValues" : [ ]
+}
