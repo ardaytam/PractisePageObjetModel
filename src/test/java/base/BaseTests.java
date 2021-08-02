@@ -29,14 +29,13 @@ public class BaseTests {
     public void setUp() {
 
 //        System.setProperty("webdriver.chrome.webdriver", "chromedriver.exe");
-//        driver = new ChromeDriver(); A WebDriver manager elintézi ezt a gdolgot
+//        driver = new ChromeDriver();
+//System.setProperty("webdriver.chrome.driver", "chromedriver.exe"); /A WebDriver manager elintézi ezt a dolgot
 
-
-        //System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized"); // teljes képernyőőben való használat
-       options.addArguments("--no-sandbox");
+        options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--headless");
         driver = new ChromeDriver(options); // új böngésző nyitása az opciókkal
@@ -47,12 +46,19 @@ public class BaseTests {
 
     }
 
+    @BeforeEach
+    public void goHomePage (){
+        driver.get("https://the-internet.herokuapp.com/"); //PL Egy tesztosztályban több teszteset van ugyanonnan induljanak
+    }
+
     @AfterAll
     public void tearDown() {
         driver.quit();
     }
 
 }
+
+
 
 
 //        WebElement shiftingContentLink = driver.findElement(By.linkText("Shifting Content"));

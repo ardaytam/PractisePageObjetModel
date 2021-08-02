@@ -1,0 +1,1 @@
+{"uuid":"5f82128a-6cc3-4451-a3de-70d799cf0ea5","name":"testAcceptAlert()","children":["d9873b0a-95d3-47dd-ab05-ae625227c463"],"befores":[{"name":"goHomePage","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1627917957495,"stop":1627917957701}],"afters":[],"links":[],"start":1627917957492,"stop":1627917958076}

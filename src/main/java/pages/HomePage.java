@@ -14,8 +14,8 @@ public class HomePage {
     // Its better to generalize the method (if there are many linked page)
 
     public HomePage(WebDriver driver) {   //HomePage objektum konstruktora
-        this.driver = driver;            //A paraméterben pedig az aktuális böngészőmeghajtót adjuk át pl. chromedriver
-        // a tezstben a @BeforeAll setUp metódusa hívja meg és adja át a chtromedrivert, csakhogy az static
+        this.driver = driver;            //paraméterben az  aktuális böngészőmeghajtót adjuk át pl. chromedriver
+        // a tesztben a @BeforeAll setUp metódusa hívja meg és adja át a chtromedrivert, csakhogy az static
     }
 
     /*public void clickFormAuthentication(){
@@ -45,6 +45,15 @@ public class HomePage {
         clickLink("Key Presses" );
         return new KeyPressesPage(driver);
     }
+    public HorizontalSliderPage clickHorizontalSlide() {
+        clickLink("Horizontal Slider" );
+        return new HorizontalSliderPage(driver);
+    }
+    public AlertsPage clickJavaScriptAlerts() {
+        clickLink("JavaScript Alerts" );
+        return new AlertsPage (driver);
+    }
+
 
 
 
